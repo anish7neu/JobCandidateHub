@@ -31,13 +31,19 @@ namespace Application.CandidateInfos.Commands
                 .NotEmpty()
                 .WithMessage("Last name is required.").WithErrorCode("requiredlastName")
                 .MaximumLength(100).WithMessage("Last name must not exceed 100 characters").WithErrorCode("lengthLastName")
-                .Must(HaveValidFirstName).WithErrorCode("invalidlastName").WithMessage("lastName is invalid.");
+                .Must(HaveValidLastName).WithErrorCode("invalidlastName").WithMessage("LastName is invalid.");
 
             RuleFor(x => x.Email)
                  .Cascade(CascadeMode.Stop)
                  .NotEmpty().WithMessage("Email is required.")
-                 .Must(BeValidEmail).WithMessage("Email is  invalid").WithErrorCode("invalidEmail")
-                 .MustAsync(BeUniqueEmail).WithMessage("Email already exists.").WithErrorCode("emailAlreadyExist");
+                 .MaximumLength(100).WithMessage("Last name must not exceed 100 characters").WithErrorCode("lengthEmail")
+                 .Must(BeValidEmail).WithMessage("Email is  invalid").WithErrorCode("invalidEmail");
+                 //.MustAsync(BeUniqueEmail).WithMessage("Email already exists.").WithErrorCode("emailAlreadyExist");
+
+            RuleFor(v => v.PhoneNumber)
+                .Cascade(CascadeMode.Stop)
+                .MaximumLength(10).WithMessage("Phone number must not exceed 10 digits").WithErrorCode("lengthPhoneNumber")
+                .Must(BeValidPhoneNumber).WithMessage("Phone number is  invalid").WithErrorCode("invalidPhoneNumber");
 
             RuleFor(v => v.Comment)
                 .Cascade(CascadeMode.Stop)
@@ -89,14 +95,33 @@ namespace Application.CandidateInfos.Commands
             return true;
         }
 
-        private async Task<bool> BeUniqueEmail(string email, CancellationToken cancellationToken)
-        {
-            bool result = await _context.Candidates
-                                         .Where(x => x.Email != null)
-                                         .Select(x => x.Email.EmailAddress)
-                                         .AnyAsync(l => l == email.Trim().ToLower());
+        //private async Task<bool> BeUniqueEmail(string email, CancellationToken cancellationToken)
+        //{
+        //    bool result = await _context.Candidates
+        //                                 .Where(x => x.Email != null)
+        //                                 .Select(x => x.Email.EmailAddress)
+        //                                 .AnyAsync(l => l == email.Trim().ToLower());
 
-            return !result;
+        //    return !result;
+        //}
+
+        private bool BeValidPhoneNumber(string phone)
+        {
+            try
+            {
+                bool isNumber = Int64.TryParse(phone, out Int64 result);
+                if (!isNumber)
+                    return false;
+
+                if ((phone.StartsWith("98") || phone.StartsWith("97")) && phone.Length == 10)
+                    return true;
+
+                return false;
+            }
+            catch (NotSupportedException)
+            {
+                return false;
+            }
         }
     }
 }

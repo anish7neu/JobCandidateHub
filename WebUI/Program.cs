@@ -1,10 +1,15 @@
 using Application;
+using FluentValidation.AspNetCore;
 using Infrastructure;
 using Infrastructure.Persistance;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +25,17 @@ builder.Services.AddHealthChecks()
 builder.Services
     .AddApplication()
     .AddInfrastructure(configuration);
+builder.Services.AddControllers(config =>
+{
+    var httpContextAccessor = new HttpContextAccessor();
+}
+                );
+//builder.Services.AddControllersWithViews(options =>
+//{
 
+
+//}).AddFluentValidation();
+builder.Services.AddFluentValidation();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
