@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Candidate
+    public class Candidate : IBaseEntity
     {
+        [Key]
         public Guid Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -19,7 +20,5 @@ namespace Domain.Entities
         public string LinkedInProfileUrl { get; set; }
         public string GitHubProfileUrl { get; set; }
         public string Comment { get; set; }
-
-
     }
 }
