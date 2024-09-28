@@ -42,6 +42,7 @@ namespace Application.CandidateInfos.Commands
 
             RuleFor(v => v.PhoneNumber)
                 .Cascade(CascadeMode.Stop)
+                .Null()
                 .MaximumLength(10).WithMessage("Phone number must not exceed 10 digits").WithErrorCode("lengthPhoneNumber")
                 .Must(BeValidPhoneNumber).WithMessage("Phone number is  invalid").WithErrorCode("invalidPhoneNumber");
 

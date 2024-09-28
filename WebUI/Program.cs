@@ -9,6 +9,10 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using System.IO;
+using System.Reflection;
+using System;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +23,10 @@ IConfiguration configuration = new ConfigurationBuilder()
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Job Candidate Hub API", Version = "v1" });
+});
 builder.Services.AddHealthChecks()
                 .AddDbContextCheck<ApplicationDbContext>();
 builder.Services
@@ -28,17 +35,12 @@ builder.Services
 builder.Services.AddControllers(config =>
 {
     var httpContextAccessor = new HttpContextAccessor();
-}
-                );
-//builder.Services.AddControllersWithViews(options =>
-//{
+});
 
-
-//}).AddFluentValidation();
 builder.Services.AddFluentValidation();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

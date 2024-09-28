@@ -9,6 +9,7 @@ namespace WebUI.Controllers
 {
     public class CandidateController : ApiControllerBase
     {
+        
         [HttpPost]
         [Route("addOrUpdate")]
         public async Task<ActionResult<Guid>> AddOrUpdateCandidate(AddorUpdateCandidateCommand command)

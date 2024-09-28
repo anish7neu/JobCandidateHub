@@ -16,7 +16,7 @@ namespace Domain.Entities
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }
         public Email Email { get; set; }
-        public DateTime PreferredCallTime { get; set; }
+        public DateTime? PreferredCallTime { get; set; }
         public string LinkedInProfileUrl { get; set; }
         public string GitHubProfileUrl { get; set; }
         public string Comment { get; set; }
