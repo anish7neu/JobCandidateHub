@@ -55,7 +55,7 @@ namespace Application.CandidateInfos.Commands
                         Comment = request.Comment
                     };
                     _context.Candidates.Add(candidateInfo);
-                    //await _context.SaveChangesAsync(cancellationToken);
+                    await _context.SaveChangesAsync(cancellationToken);
                     return candidateInfo.Id;
                 }
                 // Update
@@ -65,7 +65,7 @@ namespace Application.CandidateInfos.Commands
                                                                 .Where(x => x.Email.EmailAddress.Trim() == request.Email.Trim())
                                                                 .FirstOrDefaultAsync(cancellationToken);
 
-                    if (existingCandidate != null)
+                    if (existingCandidate == null)
                         throw new Exception("Email doesn't exist in database.");
 
                     existingCandidate.FirstName = request.FirstName;
@@ -78,6 +78,7 @@ namespace Application.CandidateInfos.Commands
                     existingCandidate.Comment = request.Comment;
 
                     _context.Candidates.Update(existingCandidate);
+                    await _context.SaveChangesAsync(cancellationToken);
                     return existingCandidate.Id;
                 }
             }

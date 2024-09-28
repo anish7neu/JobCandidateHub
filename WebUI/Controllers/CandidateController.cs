@@ -1,8 +1,9 @@
 ﻿using Application.CandidateInfos.Commands;
+using Application.CandidateInfos.Queries;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
-using W;
 
 namespace WebUI.Controllers
 {
@@ -19,11 +20,10 @@ namespace WebUI.Controllers
 
         [HttpGet]
         [Route("view")]
-        public async Task<ActionResult<Guid>> GetAllCandidate(AddorUpdateCandidateCommand command)
+        public async Task<ActionResult<List<CandidatesVm>>> GetAllCandidate()
         {
-            Guid result = await Mediator.Send(command);
-
-            return Ok(result);
+            var query = new GetAllCandidatesQuery();
+            return Ok(await Mediator.Send(query));
         }
 
     }
