@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\domain\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|solutionrelative:domain\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\domain\\common\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|solutionrelative:domain\\common\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 276,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,7 +114,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\ValueObjects\\Email.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\Email.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\ValueObjects\\Email.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\Email.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T03:41:05.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ValueObject.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\Common\\ValueObject.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\ValueObject.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\Common\\ValueObject.cs",
+              "RelativeToolTip": "Domain\\Common\\ValueObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T03:40:32.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\Entities\\Candidate.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Candidate.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\Entities\\Candidate.cs",
+              "RelativeToolTip": "Domain\\Entities\\Candidate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T03:25:59.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
@@ -133,7 +172,7 @@
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
               "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-09-28T03:14:28.338Z",
               "EditorCaption": ""
@@ -146,48 +185,9 @@
               "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\DependencyInjection.cs",
               "RelativeToolTip": "Application\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T02:58:38.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WebUI\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\WeatherForecast.cs",
-              "RelativeToolTip": "WebUI\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T02:57:13.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Program.cs",
-              "RelativeDocumentMoniker": "WebUI\\Program.cs",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Program.cs",
-              "RelativeToolTip": "WebUI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T02:57:12.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WebUI",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\WebUI.csproj",
-              "RelativeDocumentMoniker": "WebUI\\WebUI.csproj",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\WebUI.csproj",
-              "RelativeToolTip": "WebUI\\WebUI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-28T02:57:08.028Z",
               "EditorCaption": ""
             },
             {
@@ -205,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Application",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
