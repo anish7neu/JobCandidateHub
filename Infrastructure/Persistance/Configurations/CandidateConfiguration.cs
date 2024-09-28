@@ -15,9 +15,13 @@ namespace Infrastructure.Persistance.Configurations
         {
             builder.HasKey(t => t.Id);
 
-            builder.Property(t => t.FirstName).IsRequired();
+            builder.Property(t => t.FirstName)
+                    .IsRequired()
+                    .HasMaxLength(100);
 
-            builder.Property(t => t.LastName).IsRequired();
+            builder.Property(t => t.LastName)
+                    .IsRequired()
+                    .HasMaxLength(100);
 
             builder.OwnsOne(x => x.Email, cb =>
             {
@@ -28,9 +32,11 @@ namespace Infrastructure.Persistance.Configurations
             });
 
 
-            builder.Property(t => t.GitHubProfileUrl).HasMaxLength(200);
+            builder.Property(t => t.GitHubProfileUrl)
+                    .HasMaxLength(200);
 
-            builder.Property(t => t.LinkedInProfileUrl).HasMaxLength(200);
+            builder.Property(t => t.LinkedInProfileUrl)
+                    .HasMaxLength(200);
 
             builder.Property(t => t.Comment)
                     .IsRequired()
