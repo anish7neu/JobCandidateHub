@@ -37,7 +37,7 @@ namespace WebUI.Controllers
         [Route("view")]
         public async Task<ActionResult<List<CandidatesVm>>> GetAllCandidate()
         {
-            var cacheData = _cacheService.GetCacheAsync<IEnumerable<Candidate>>(CandidateCacheKey);
+            var cacheData = _cacheService.GetCacheAsync<IEnumerable<CandidatesVm>>(CandidateCacheKey);
             if (cacheData == null)
             {
                 _logger.LogInformation("Fetching data from database.");
