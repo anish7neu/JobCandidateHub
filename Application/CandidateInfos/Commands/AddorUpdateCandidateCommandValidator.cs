@@ -42,7 +42,7 @@ namespace Application.CandidateInfos.Commands
 
             RuleFor(v => v.PhoneNumber)
                 .Cascade(CascadeMode.Stop)
-                .MaximumLength(10).When(v => !string.IsNullOrEmpty(v.PhoneNumber)).WithMessage("Phone number must not exceed 10 digits").WithErrorCode("lengthPhoneNumber")
+                .Length(10).When(v => !string.IsNullOrEmpty(v.PhoneNumber)).WithMessage("Phone number must be of 10 digits").WithErrorCode("lengthPhoneNumber")
                 .Must(BeValidPhoneNumber).When(v => !string.IsNullOrEmpty(v.PhoneNumber)).WithMessage("Phone number must start with 98 or 97 followed by 8 digits.").WithErrorCode("invalidPhoneNumber");
 
 
