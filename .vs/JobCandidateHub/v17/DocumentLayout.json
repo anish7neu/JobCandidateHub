@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\persistance\\configurations\\candidateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistance\\configurations\\candidateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\candidateinfos\\commands\\addorupdatecandidatecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\candidateinfos\\commands\\addorupdatecandidatecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\candidateinfos\\commands\\addorupdatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\candidateinfos\\commands\\addorupdatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\candidateinfos\\queries\\getallcandidatesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\candidateinfos\\queries\\getallcandidatesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\common\\interfaces\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\candidateinfos\\queries\\candidatesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\candidateinfos\\queries\\candidatesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\filters\\swaggerrequiredschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\filters\\swaggerrequiredschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\candidateinfos\\queries\\candidatesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\candidateinfos\\queries\\candidatesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\common\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +33,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\persistance\\configurations\\candidateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistance\\configurations\\candidateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\candidateinfos\\commands\\addorupdatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\candidateinfos\\commands\\addorupdatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\candidateinfos\\queries\\getallcandidatesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\candidateinfos\\queries\\getallcandidatesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB7DAD3-0316-4186-A9D0-02434158A637}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 276,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -173,40 +177,44 @@
               "Name": "ST:87:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddorUpdateCandidateCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
-              "RelativeDocumentMoniker": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
-              "RelativeToolTip": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAowBkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T05:24:05.554Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CandidateController.cs",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Controllers\\CandidateController.cs",
-              "RelativeDocumentMoniker": "WebUI\\Controllers\\CandidateController.cs",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Controllers\\CandidateController.cs",
-              "RelativeToolTip": "WebUI\\Controllers\\CandidateController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA4AAABeAAAA",
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Services\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\RedisCacheService.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Services\\RedisCacheService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\RedisCacheService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvy4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T06:05:36.965Z",
+              "WhenOpened": "2024-09-29T03:55:42.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\Common\\Interfaces\\ICacheService.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\ICacheService.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\Common\\Interfaces\\ICacheService.cs",
+              "RelativeToolTip": "Application\\Common\\Interfaces\\ICacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T03:52:36.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Program.cs",
               "RelativeDocumentMoniker": "WebUI\\Program.cs",
               "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Program.cs",
               "RelativeToolTip": "WebUI\\Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAswCcAAAA4AAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T04:02:37.527Z",
               "EditorCaption": ""
@@ -214,6 +222,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddorUpdateCandidateCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommandValidator.cs",
+              "RelativeToolTip": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommandValidator.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAuwDEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T05:43:40.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CandidateController.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Controllers\\CandidateController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\CandidateController.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Controllers\\CandidateController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\CandidateController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwDAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T06:05:36.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CandidateConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Persistance\\Configurations\\CandidateConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Configurations\\CandidateConfiguration.cs",
@@ -226,20 +260,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddorUpdateCandidateCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommandValidator.cs",
-              "RelativeDocumentMoniker": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommandValidator.cs",
-              "RelativeToolTip": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommandValidator.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBIAAAAIAAAA",
+              "DocumentIndex": 6,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeToolTip": "Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T05:43:40.431Z",
+              "WhenOpened": "2024-09-28T03:49:21.256Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwB0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T03:48:13.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -256,7 +299,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "AddorUpdateCandidateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
+              "RelativeToolTip": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowBkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T05:24:05.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "GetAllCandidatesQuery.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Queries\\GetAllCandidatesQuery.cs",
               "RelativeDocumentMoniker": "Application\\CandidateInfos\\Queries\\GetAllCandidatesQuery.cs",
@@ -269,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Candidate.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\Entities\\Candidate.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Candidate.cs",
@@ -282,20 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SwaggerRequiredSchemaFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Filters\\SwaggerRequiredSchemaFilter.cs",
-              "RelativeDocumentMoniker": "WebUI\\Filters\\SwaggerRequiredSchemaFilter.cs",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Filters\\SwaggerRequiredSchemaFilter.cs",
-              "RelativeToolTip": "WebUI\\Filters\\SwaggerRequiredSchemaFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T10:05:34.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "WebUI",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\WebUI.csproj",
               "RelativeDocumentMoniker": "WebUI\\WebUI.csproj",
@@ -308,33 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\IApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
-              "RelativeToolTip": "Application\\Common\\Interfaces\\IApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T03:49:21.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Persistance\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Persistance\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Persistance\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T03:48:13.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ApiControllerBase.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Controllers\\ApiControllerBase.cs",
               "RelativeDocumentMoniker": "WebUI\\Controllers\\ApiControllerBase.cs",
@@ -347,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -360,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
@@ -373,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Email.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\ValueObjects\\Email.cs",
               "RelativeDocumentMoniker": "Domain\\ValueObjects\\Email.cs",
@@ -386,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Infrastructure",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -399,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Application",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -412,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IBaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\Entities\\IBaseEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\IBaseEntity.cs",
@@ -425,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\appsettings.json",
               "RelativeDocumentMoniker": "WebUI\\appsettings.json",
@@ -438,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ValueObject.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\Common\\ValueObject.cs",
               "RelativeDocumentMoniker": "Domain\\Common\\ValueObject.cs",
@@ -451,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Domain",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
@@ -464,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",

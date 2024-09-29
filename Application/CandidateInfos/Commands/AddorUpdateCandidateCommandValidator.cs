@@ -38,13 +38,13 @@ namespace Application.CandidateInfos.Commands
                  .NotEmpty().WithMessage("Email is required.")
                  .MaximumLength(100).WithMessage("Last name must not exceed 100 characters").WithErrorCode("lengthEmail")
                  .Must(BeValidEmail).WithMessage("Email is  invalid").WithErrorCode("invalidEmail");
-                 //.MustAsync(BeUniqueEmail).WithMessage("Email already exists.").WithErrorCode("emailAlreadyExist");
+            //.MustAsync(BeUniqueEmail).WithMessage("Email already exists.").WithErrorCode("emailAlreadyExist");
 
             RuleFor(v => v.PhoneNumber)
                 .Cascade(CascadeMode.Stop)
-                .Null()
-                .MaximumLength(10).WithMessage("Phone number must not exceed 10 digits").WithErrorCode("lengthPhoneNumber")
-                .Must(BeValidPhoneNumber).WithMessage("Phone number is  invalid").WithErrorCode("invalidPhoneNumber");
+                .MaximumLength(10).When(v => !string.IsNullOrEmpty(v.PhoneNumber)).WithMessage("Phone number must not exceed 10 digits").WithErrorCode("lengthPhoneNumber")
+                .Must(BeValidPhoneNumber).When(v => !string.IsNullOrEmpty(v.PhoneNumber)).WithMessage("Phone number is invalid").WithErrorCode("invalidPhoneNumber");
+
 
             RuleFor(v => v.Comment)
                 .Cascade(CascadeMode.Stop)

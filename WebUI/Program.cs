@@ -14,6 +14,9 @@ using System.IO;
 using System.Reflection;
 using System;
 using System.Text.Json;
+using Application.Common.Interfaces;
+using Infrastructure.Services;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +25,14 @@ IConfiguration configuration = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true).Build();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddSingleton<ICacheService,RedisCacheService>();
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+                                                        {
+                                                            var config = ConfigurationOptions.Parse("localhost:6379", true);
+                                                            config.ClientName = "SampleInstance";
+                                                            return ConnectionMultiplexer.Connect(config);
+                                                        });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
