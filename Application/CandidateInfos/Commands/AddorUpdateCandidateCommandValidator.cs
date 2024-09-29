@@ -57,6 +57,13 @@ namespace Application.CandidateInfos.Commands
             RuleFor(v => v.LinkedInProfileUrl)
                 .Cascade(CascadeMode.Stop)
                 .MaximumLength(200).WithMessage("LinkedInProfileUrl must not exceed 200 characters").WithErrorCode("lengthLinkedInProfileUrl");
+
+            RuleFor(v => v.PreferredCallTime)
+                .Cascade(CascadeMode.Stop)
+                .Must(preferredCallTime => !preferredCallTime.HasValue || preferredCallTime.Value >= DateTime.Now)
+                .WithMessage("PreferredCallTime cannot be in the past.")
+                .WithErrorCode("invalidPreferredCallTime");
+
         }
 
         private bool HaveValidFirstName(string firstName)
