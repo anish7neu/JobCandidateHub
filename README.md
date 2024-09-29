@@ -1,5 +1,6 @@
 Technologies used:
-        . NET 8
+
+        . NET 8 
         Clean Architecture implementation from scratch
         Adoption of MediatR and CQRS Pattern
         Usage of Fluent Validation
