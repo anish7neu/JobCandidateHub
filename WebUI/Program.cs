@@ -26,13 +26,18 @@ IConfiguration configuration = new ConfigurationBuilder()
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
-builder.Services.AddSingleton<ICacheService,RedisCacheService>();
-builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
-                                                        {
-                                                            var config = ConfigurationOptions.Parse("localhost:6379", true);
-                                                            config.ClientName = "SampleInstance";
-                                                            return ConnectionMultiplexer.Connect(config);
-                                                        });
+builder.Services.AddMemoryCache();
+builder.Services.AddDistributedRedisCache(options => {
+    options.Configuration = "localhost:6379";
+    options.InstanceName = "";
+});
+//builder.Services.AddSingleton<ICacheService,RedisCacheService>();
+//builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+//                                                        {
+//                                                            var config = ConfigurationOptions.Parse("localhost:6379", true);
+//                                                            config.ClientName = "SampleInstance";
+//                                                            return ConnectionMultiplexer.Connect(config);
+//                                                        });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
