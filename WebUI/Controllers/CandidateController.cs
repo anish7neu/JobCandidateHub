@@ -15,19 +15,16 @@ namespace WebUI.Controllers
 {
     public class CandidateController : ApiControllerBase
     {
-        //private readonly ICacheService _cacheService;
         private readonly ILogger<CandidateController> _logger;
         private const string CandidateCacheKey = "CandidateCacheKey";
-        private readonly IDistributedCache _distributedCache;
+        private readonly IMemoryCache _memoryCache;
 
         public CandidateController(
-            //ICacheService cacheService, 
             ILogger<CandidateController> logger,
-            IDistributedCache distributedCache
+            IMemoryCache memoryCache
             )
         {
-            _distributedCache = distributedCache;
-            //_cacheService = cacheService;
+            _memoryCache = memoryCache;
             _logger = logger;
         }
 
@@ -35,8 +32,7 @@ namespace WebUI.Controllers
         [Route("addOrUpdate")]
         public async Task<ActionResult<Guid>> AddOrUpdateCandidate(AddorUpdateCandidateCommand command)
         {
-            //_cacheService.RemoveData(CandidateCacheKey);
-            await _distributedCache.RemoveAsync(CandidateCacheKey);
+            _memoryCache.Remove(CandidateCacheKey);
             Guid result = await Mediator.Send(command);
 
             return Ok(result);
@@ -46,21 +42,24 @@ namespace WebUI.Controllers
         [Route("view")]
         public async Task<ActionResult<List<CandidatesVm>>> GetAllCandidate()
         {
-            //var cacheData = _cacheService.GetCacheAsync<IEnumerable<CandidatesVm>>(CandidateCacheKey);
-            var cacheData = await _distributedCache.GetStringAsync(CandidateCacheKey);
-            if (cacheData == null)
+            // Attempt to retrieve data from cache
+            if (!_memoryCache.TryGetValue(CandidateCacheKey, out List<CandidatesVm> cacheData))
             {
                 _logger.LogInformation("Fetching data from database.");
 
+                // Query to get the candidate data
                 var query = new GetAllCandidatesQuery();
                 var data = await Mediator.Send(query);
+
+                // Cache the data with a defined expiration time
                 var expirationTime = DateTimeOffset.Now.AddMinutes(10.0);
-                cacheData = JsonConvert.SerializeObject(data);
-                var cacheOptions = new DistributedCacheEntryOptions().SetAbsoluteExpiration(expirationTime);
-                await  _distributedCache.SetStringAsync(CandidateCacheKey, cacheData, cacheOptions);
+                _memoryCache.Set(CandidateCacheKey, data, expirationTime);
+
                 return Ok(data);
             }
-            return Ok(JsonConvert.DeserializeObject<IEnumerable<CandidatesVm>>(cacheData));
+
+            // If cache data exists, return it
+            return Ok(cacheData);
         }
 
     }

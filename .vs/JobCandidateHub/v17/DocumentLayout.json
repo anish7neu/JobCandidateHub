@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\candidateinfos\\commands\\addorupdatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\candidateinfos\\commands\\addorupdatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C6E761F-FC6F-4025-B5CC-ECB74E80D9AB}|WebUI\\WebUI.csproj|solutionrelative:webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\candidateinfos\\commands\\addorupdatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|solutionrelative:application\\candidateinfos\\commands\\addorupdatecandidatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\infrastructure\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D2DE51-84D2-43A4-AD26-C6EAE30114DE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45102700-99C1-4DCA-8A6B-FBDFF239FA8F}|Application\\Application.csproj|c:\\users\\anish\\desktop\\sigmaproject\\jobcandidatehub\\application\\common\\interfaces\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 276,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -151,19 +151,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Persistance\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Persistance\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Persistance\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAASwBgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T17:49:56.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "GetAllCandidatesQuery.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Queries\\GetAllCandidatesQuery.cs",
               "RelativeDocumentMoniker": "Application\\CandidateInfos\\Queries\\GetAllCandidatesQuery.cs",
@@ -176,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
@@ -189,13 +176,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Program.cs",
               "RelativeDocumentMoniker": "WebUI\\Program.cs",
               "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Program.cs",
               "RelativeToolTip": "WebUI\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAiwCEAAABDAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAiwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T04:02:37.527Z",
               "EditorCaption": ""
@@ -208,22 +195,35 @@
               "RelativeDocumentMoniker": "WebUI\\Controllers\\CandidateController.cs",
               "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\WebUI\\Controllers\\CandidateController.cs",
               "RelativeToolTip": "WebUI\\Controllers\\CandidateController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADgAAABJAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDUAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T06:05:36.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AddorUpdateCandidateCommand.cs",
               "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
               "RelativeDocumentMoniker": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
               "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
               "RelativeToolTip": "Application\\CandidateInfos\\Commands\\AddorUpdateCandidateCommand.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAnwCkAAAAIAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAjwCkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T05:24:05.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Anish\\Desktop\\SigmaProject\\JobCandidateHub\\Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAASwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T17:49:56.352Z",
               "EditorCaption": ""
             },
             {
